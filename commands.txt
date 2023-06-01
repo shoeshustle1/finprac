@@ -1,0 +1,17 @@
+for ubentu:
+sudo apt install g++ libomp-dev build-essential
+#enter password if asked,same as login password
+touch filename.cpp
+#creates cpp file, copy contents from github to this file
+g++ -fopenmp filename.cpp
+./a.out
+
+for fedora:
+sudo dnf install gcc-c++
+#enter password if asked,same as login password
+sudo dnf install libgomp
+#enter password if asked,same as login password
+touch filename.cpp
+#creates cpp file, copy contents from github to this file
+g++ -fopenmp filename.cpp
+./a.out
